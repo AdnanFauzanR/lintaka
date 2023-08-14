@@ -1,0 +1,48 @@
+.tujuan-penyuratan-container {
+    margin: 20px;
+    height: max-content;
+    border-radius: 15px;
+    padding: 10px 40px;
+    height: max-content;
+    background-color: #fff;
+}
+
+.isi-surat-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 20px;
+    line-height: 20px;
+}
+
+.profil-surat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 15px 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profil-surat-container p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .tujuan-penyuratan-container {
+        font-size: 13px;
+    }
+
+    .isi-surat-container p {
+        font-size: 12px;
+    }
+
+    .profil-surat-container p {
+        font-size: 12px;
+    }
+}

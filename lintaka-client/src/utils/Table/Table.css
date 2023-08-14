@@ -1,0 +1,27 @@
+.table-container {
+    background-color: #fff;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    height: max-content;
+    width: max-content;
+}
+
+.edit-button {
+    background-color: transparent;
+    border: none;
+    height: max-content;
+    width: max-content;
+}
+
+@media (max-width: 767px) {
+    .table-container {
+        width: 80%;
+    }
+}

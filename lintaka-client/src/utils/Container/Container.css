@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+@media (max-width: 767px) {
+    .card-container {
+        width: 80%;
+        margin-left: 10px;
+    }
+}

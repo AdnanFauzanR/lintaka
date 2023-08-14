@@ -1,0 +1,132 @@
+.laporan-pengaduan-container {
+    height: auto;
+    width: auto;
+    padding: 10px 15px;
+}
+
+.laporan-pengaduan-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.tujuan-container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 40px;
+    height: max-content;
+    width: max-content;
+}
+
+.jenis-container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 40px;
+    height: max-content;
+    width: max-content;
+    font-weight: bold;
+}
+
+.profil-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 15px 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profil-container p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+#header-isi {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.isi-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+    margin: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 20px;
+    line-height: 20px;
+}
+
+#header-bukti {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bukti-container {
+    display: flex;
+    margin: 10px 20px;
+}
+
+.profil-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.button-download {
+    align-items: left;
+    height: max-content;
+    width: max-content;
+    background-color: #004AAD;
+    border-radius: 13px;
+    padding: 20px;
+    color: #fff;
+    border:none ;
+}
+
+@media (max-width: 767px) {
+    .laporan-pengaduan-header{
+        width: 100%;
+        margin-left: -5px;
+        margin-bottom: -10px;
+    }
+    .tujuan-container {
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+
+    .jenis-container {
+        font-size: 12px;
+        padding: 5px 20px;
+        margin-bottom: -7px;
+    }
+
+    .profil-container p {
+        font-size: 10px;
+    }
+
+    .isi-container p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .profil-container {
+        width: 95%;
+        margin-left: -5px;
+    }
+
+    .isi-container {
+        width: 90%;
+        margin-left: -5px;
+    }
+}

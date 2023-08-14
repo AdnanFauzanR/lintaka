@@ -1,0 +1,34 @@
+.button-submit-container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 13px;
+    height: fit-content;
+    width: max-content;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-submit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    background-color: #004AAD;
+    border-radius: 13px;
+    height: max-content;
+    width: max-content;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    .button-submit{
+        width: 80px;
+        font-size: 12px;
+        padding: 9px;
+    }
+}

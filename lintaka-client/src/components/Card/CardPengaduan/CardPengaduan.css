@@ -1,0 +1,59 @@
+.cardpengaduan {
+    width: 100%;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    border-radius: 13px;
+    padding: 3px 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Roboto';
+    color: #3B3939;
+    font-size: 14px;
+}
+
+.cardpengaduan-container-header {
+    height: 25px;
+    padding: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardpengaduan-container-header p {
+    font-weight: 600;
+}
+
+
+.cardpengaduan-container-body {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#description {
+    align-self: self-start;
+    text-align: left;
+    width: 75%;
+}
+
+#date {
+    align-self: self-end;
+    font-weight: 600;
+}
+
+@media(max-width:767px) {
+    .cardpengaduan-container-body p {
+        font-size: 8px;
+    }
+
+    .cardpengaduan-container-header p {
+        font-size: 10px;
+    }
+
+    #date {
+        font-size: 8px;
+    }
+}

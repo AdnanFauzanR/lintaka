@@ -1,0 +1,78 @@
+.konteninformasicontainer {
+    height: max-content;
+    width: 90%;
+    background-color: #fff;
+    border-radius:13px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    padding-top: 5px;
+    font-family:'Roboto';
+}
+
+.konteninformasicontainer-header {
+    padding: 0px 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.konteninformasicontainer-judul {
+    margin: 10px auto;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.konteninformasicontainer-foto {
+    width: 60%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+.konteninformasicontainer-foto img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.konteninformasicontainer-content {
+    width: 80%;
+    margin: 5px auto;
+    text-align:justify;
+}
+
+.konteninformasicontainer-content p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#date{
+    align-self: flex-start;
+}
+
+#location{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #3B3939;
+    font-weight: 600;
+}
+
+@media (max-width: 426px) {
+    .konteninformasicontainer-header p{
+        font-size: 10px;
+    }
+
+    #location {
+        font-size: 10px;
+    }
+
+    .konteninformasicontainer-judul{
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .konteninformasicontainer-content p {
+        font-size: 10px;
+    }
+}

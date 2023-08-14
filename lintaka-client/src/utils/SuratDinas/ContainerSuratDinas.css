@@ -1,0 +1,35 @@
+.judul-container {
+    height: max-content;
+    background-color: #fff;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 15px 0px;
+    border-radius: 15px; 
+}
+
+.laporan-surat-dinas-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.tujuan-surat-dinas-container {
+    margin: 10px 0px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px 40px;
+    height: max-content;
+}
+
+
+@media (max-width: 767px) {
+    .tujuan-surat-dinas-container {
+        font-size: 12px;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+
+    .judul-container {
+        font-size: 12px;
+    }
+}

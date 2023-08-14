@@ -1,0 +1,28 @@
+.pengaduan-dropdown-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container {
+    display: flex;
+    align-self:flex-start;
+    height: auto;
+    width: 90%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 13px;
+
+}
+
+.surat-dinas-dropdown-container {
+    display: flex;
+    align-self: flex-start;
+    background-color: aquamarine;
+}
+
+@media (max-width: 767px) {
+    .form-container {
+        width: 80%;
+    }
+}
