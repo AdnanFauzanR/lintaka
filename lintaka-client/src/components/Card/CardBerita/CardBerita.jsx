@@ -7,9 +7,23 @@ import formatDate from '../../../utils/formatDate';
 const CardBerita = (props) => {
     const navigate = useNavigate();
 
+    function formatJudul(judul) {
+        console.log(judul.length);
+        let newJudul = "";
+        for(let i = 0; i <judul.length; i++) {
+            if(judul[i] === " "){
+                newJudul += "-";
+            }else {
+                newJudul += judul[i];
+            }
+        }
+        return newJudul;
+    }
+
     function kontenInformasiHandler(navigate) {
         const beritaID = props.berita.id;
-        navigate(`/KontenInformasi?id=${beritaID}`); 
+        const judulBerita = formatJudul(props.berita.judul);
+        navigate(`/KontenInformasi?id=${beritaID}?judul=${judulBerita}`); 
     }
     return(
         <div className="cardberita">

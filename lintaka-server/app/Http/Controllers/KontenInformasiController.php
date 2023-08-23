@@ -61,7 +61,7 @@ public function store(Request $request)
     $validator = Validator::make($request->all(), [
         'judul' => 'required|string',
         'isi' => 'required|string|max:50000',
-        'foto' => 'required|mimes:jpg,png|max:10240'
+        'foto' => 'required|mimes:jpg,png,jpeg,heic|max:10240'
     ],[
         'judul.required' => 'Judul berita harus diisi',
         'foto.required' => 'Foto berita tidak boleh kosong',

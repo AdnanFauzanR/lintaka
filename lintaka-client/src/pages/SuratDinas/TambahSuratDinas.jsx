@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import SidebarKelurahan from "../../components/Sidebar/SidebarKelurahan";
 import SidebarKecamatan from "../../components/Sidebar/SidebarKecamatan";
